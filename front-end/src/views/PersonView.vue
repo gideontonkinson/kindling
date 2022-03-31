@@ -1,5 +1,5 @@
 <template>
-<div class = "container m-5">
+<div class = "container mb-5">
     <div> 
         <h2><b>{{person.firstname}} {{person.lastname}}</b></h2>
         <img class = "photo" :src="person.path" />

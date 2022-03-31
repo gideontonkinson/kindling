@@ -1,5 +1,5 @@
 <template>
-<div v-if="!loggedIn" class = "container m-5">
+<div v-if="!loggedIn" class = "container mb-5">
   <h3>Hello! We hope that here on Kindling you can find your best better half or some new best friends.</h3>
   <div class="form" v-if="!newUser">
     <input v-model="username" placeholder="Username"><br>
@@ -174,7 +174,7 @@ export default {
   }
 
   .photo {
-    width: 40em;
+    width: 90%;
     border-radius: 5px;
   }
 
