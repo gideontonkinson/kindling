@@ -4,7 +4,7 @@
   <h4>Click on a user to find out more about them and to see their reviews.</h4>
   <section class="image-gallery">
     <div class = "row">
-      <div class="col-xs-12 col-sm-6" v-for="person in persons" :key="person._id">
+      <div class="col-xs-12 col-sm-6 mb-2" v-for="person in persons" :key="person._id">
         <router-link  :to="'/persons/' + person._id">
         <h4>{{person.firstname}} {{person.lastname}}</h4>
         <p>Reviews - {{person.reviewsCount}}</p>
