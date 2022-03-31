@@ -1,5 +1,5 @@
 <template>
-<div v-if="!loggedIn" class = "container">
+<div v-if="!loggedIn" class = "container m-5">
   <h3>Hello! We hope that here on Kindling you can find your best better half or some new best friends.</h3>
   <div class="form" v-if="!newUser">
     <input v-model="username" placeholder="Username"><br>
