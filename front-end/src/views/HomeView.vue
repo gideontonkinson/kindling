@@ -53,6 +53,7 @@ export default {
 
   img {
     border-radius: 5px;
+    width:25em;
   }
 
   .image-gallery {

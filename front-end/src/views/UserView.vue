@@ -42,7 +42,7 @@
         <img class = "photo" :src="user.path" />
         <p>Username: {{user.username}}</p><br>
         <label></label><input v-model="user.email" placeholder="Email"><br>
-        <label>About you:<br></label><textarea v-model="user.description" placeholder="About You - Include things like what type of relationship you are looking for, age and city"></textarea><br>
+        <label>About you:</label><br><textarea v-model="user.description" placeholder="About You - Include things like what type of relationship you are looking for, age and city"></textarea><br>
       </div>
       <div>
         <button @click="deleteUser(user)">Delete Account</button>
@@ -174,7 +174,7 @@ export default {
   }
 
   .photo {
-    width: 50em;
+    width: 40em;
     border-radius: 5px;
   }
 
